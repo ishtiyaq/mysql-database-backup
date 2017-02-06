@@ -1,8 +1,5 @@
 #!/bin/bash
 
-## crontab
-# 00 23 * * 1-5 /__DatabaseBackup/database_backup.sh 2>&1
-
 ## change the values below where needed.....
 DBNAMES="<database-name>"
 HOST="--host=localhost"
